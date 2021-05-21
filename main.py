@@ -17,7 +17,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/')
 def hello_world():
-    return "hello app"
+    	return "hello app"
     
 @app.route('/RequestImageWithMetadata', methods=['POST'])
 def post():
